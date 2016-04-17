@@ -1,3 +1,17 @@
 body  {
-	background-color: darkgreen;
+	background-color: gainsboro;
+}
+/***********************************
+Each card should take up
+30% of the width of the browser window.
+************************************/
+
+/***********************************
+Card Bodies
+************************************/
+.cards {
+	width: 30%;
+	border-style: solid;
+	border-color: lightblue;
+	border: 1px;
 }
