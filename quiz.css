@@ -1,31 +1,33 @@
+
+
 body  {
-	background-color: gainsboro;
+	/*background-color: gainsboro;*/
 }
-/***********************************
-Each card should take up
-30% of the width of the browser window.
-************************************/
+
 
 /***********************************
 Card Bodies
 ************************************/
 .cards {
-	width: 30%;
+	width: 30%; /*every card can only take up 30% of the browser window*/
 	border-style: solid;
-	border-color: black;
-	/*background-color: black;*/
-	color: white;
+	border-color: lightblue;
+	border-width: 1px;
 }
 
 .cards img {
-	margin-right: auto;
-	margin-left: auto;
+	margin: 10px auto;
 	width: 100%;
 	height: 30%;
+	border-radius: 50%;
+
 }
 
 .header {
 	margin-right: auto;
 	margin-left: auto;
+	border-style: dotted;
+	border-width: 1px;
+	border-color: lightgrey;
 } /*supposed to be centered*/
 
