@@ -10,15 +10,23 @@ Card Bodies
 ************************************/
 .cards {
 	width: 30%; /*every card can only take up 30% of the browser window*/
+	height: 45%;
 	border-style: solid;
 	border-color: lightblue;
 	border-width: 1px;
+	margin: 5px;
+	float: left;
+
 } /*supposed to have a lightblue solid 1px border*/
+
+.cards:nth-child(4n) {
+	clear: left;
+}
 
 .cards img {
 	display: block;
 	margin: 10px auto;
-	width: 100%;
+	width: 90%;
 	height: 30%;
 	border-radius: 50%;
 }/*supposed to be centered*/
@@ -28,25 +36,47 @@ Card Bodies
 	border-style: dotted;
 	border-width: 1px;
 	border-color: lightgrey;
+	margin: 0;
 } /*supposed to be centered, have a lightgrey dotted 1px border*/
+
+.header h1 {
+	margin: 1px;
+}
 
 .productDescription {
 	text-align: justify;
-	padding: 10px;
+	padding: 2px;
 	font-weight: bold;
+	max-height: 25%;
 }
 
-#secondSection header, p{
+#secondSection header{
 	font-weight: bold;
+	padding: 2px;
+	margin: 1px;
+}
+#secondSection header {
+	font-size: 1.25rem;
+}
+
+.size, .weight {
+	font-weight: bold;
+	margin: 2px;
+}
+
+#secondSection .validUntil {
+	margin: 0px;
+
 }
 
 #thirdSection {
 	font-weight: bold;
+	padding: 2px;
 }
 
 .availibility {
 	background-color: darkgrey;
 	color: yellow;
 	width: 100%;
-	padding: ;
+	padding: 2px 0;
 }
