@@ -12,6 +12,20 @@ Card Bodies
 .cards {
 	width: 30%;
 	border-style: solid;
-	border-color: lightblue;
-	border: 1px;
+	border-color: black;
+	/*background-color: black;*/
+	color: white;
 }
+
+.cards img {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 30%;
+}
+
+.header {
+	margin-right: auto;
+	margin-left: auto;
+} /*supposed to be centered*/
+
